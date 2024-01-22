@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="music-card">
+        <nav>
+            <div class="icon"><i class='bx bx-chevron-left'></i></div>
+            <div class="icon"><i class='bx bx-menu'></i></div>
+        </nav>
+        <div class="thumbnail"></div>
+        <audio  id="song">
+            <source src="assets/Kar Na Sake Hum Pyar Ka Sauda - Nadeem-Shravan, Asha Bhosle, Kumar Sanu.m4a">
+        </audio>
+        <div class="controls">
+            <input type="range" id="progress">
+            <div class="media-controls">
+                <div class="media-icon"><i class='bx bx-chevrons-left'></i></div>
+                <div class="media-icon"><i class='bx bx-play' id="playpause"></i></div>
+                <div class="media-icon"><i class='bx bx-chevrons-right'></i></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
