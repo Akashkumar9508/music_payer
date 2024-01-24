@@ -126,3 +126,29 @@ nav .icon i {
     transform: scale(1.05);
     background-color: rgb(29, 23, 29);
 }
+@media screen and (max-width: 768px) {
+    .music-card {
+        width: 90%;
+    }
+
+    .music-card .thumbnail {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .controls input {
+        width: 80%;
+    }
+
+    .media-controls .media-icon {
+        height: 4vw; /* Adjusted height using vw unit */
+        width: 4vw; /* Adjusted width using vw unit */
+        font-size: 2vw; /* Adjusted font-size using vw unit */
+    }
+
+    .media-controls .media-icon:nth-child(2) {
+        height: 6vw; /* Adjusted height using vw unit */
+        width: 6vw; /* Adjusted width using vw unit */
+        font-size: 3vw; /* Adjusted font-size using vw unit */
+    }
+}
